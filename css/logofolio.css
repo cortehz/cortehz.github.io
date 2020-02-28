@@ -572,7 +572,7 @@
 
 .img-container {
     width: 100%;
-    height: 500px;
+    height: 400px;
     cursor: pointer;
     overflow: hidden;
 }
@@ -582,8 +582,9 @@
 }
 
 .img-container img {
-    width: 100%;
-    height: 500px;
+    /* width: 100%;
+    height: 500px; */
+    height: 200px;
     -o-object-fit: cover;
     object-fit: cover;
     -webkit-transform: scale(1);
