@@ -633,7 +633,6 @@
 }
 
 
-
 @media screen and (max-width: 1024px) {
     .img-container img:hover {
         -webkit-transform: none;
@@ -659,6 +658,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding-right: 50px;
     padding-left: 50px;
 }
@@ -667,6 +667,15 @@
 .about-writing {
     width: 60%;
     padding-left: 40px;
+}
+
+
+
+@media screen and (max-width: 993px) {
+    .about-writing {
+        width: 100%;
+    }
+
 }
 
 .about-writing p {
